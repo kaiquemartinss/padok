@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+/* --- CABEÇALHO ---*/
+
+header{
+	width: 100%;
+	height: 80px;
+	background-color: #5E2505;
+	line-height: 80px;
+}
+
+header .logo{
+	font-family: 'Cookie', cursive;
+	font-size: 3em;
+	float: left;
+	color: #fff;
+	margin-left: 10%;
+}
+
+nav ul{
+	float: right;
+	margin-right: 10%;
+}
+
+nav ul li{
+	display: inline;
+	color: #fff;
+}
+
+nav ul li a{
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 20px;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+/* --- BANNER --- */
+#banner{
+	width: 100%;
+	height: 400px;
+	background-image: url('imagens/banner.png');
+}
+
+.titulo{
+	color: #fff;
+	font-size: 5em;
+	font-family: 'Shippori Mincho B1', serif;
+	padding-left: 21%;
+	padding-top: 100px;
+}
+
+/* --- SOBRE NÓS --- */
+#sobre{
+	margin: 0 auto;
+	width: 1050px;
+	height: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#sobre h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-family: 'Cookie', cursive;
+	color: #5E2505;
+}
+
+#sobre p{
+	width: 500px;
+	float: left;
+	text-align: justify;
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 14px;
+}
+
+#sobre img{
+	width: 500px;
+	float: right;
+}
+
+hr{
+	width: 20%;
+	border: 1px solid #5E2505;
+	margin:0 auto;
+}
+
+/* --- FESTAS & EVENTOS ---*/
+#festas-eventos{
+	margin: 0 auto;
+	width: 1050px;
+	height: 450px;
+	margin-top: 20px;
+}
+
+#festas-eventos h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 2em;
+	font-family: 'Cookie', cursive;
+	color: #5E2505;
+}
+
+#festas-eventos img{
+	width: 500px;
+	float: left;
+}
+
+#festas-eventos p{
+	width: 500px;
+	float: right;
+	text-align: justify;
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 14px;
+}
+
+#festas-eventos p .btn{
+	text-decoration: none;
+	border: 2px solid #FF6041;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FF6041;
+	margin-left: 37%;
+	font-weight: bold;
+}
+
+#festas-eventos p .btn:hover{
+	background-color: #FF6041;
+	color: #fff;
+}
+
+/* ----- PÁGINA DE GALERIA ----- */
+/* --- GALERIA ---*/
+#galeria{
+	margin: 0 auto;
+	width: 1050px;
+	height: 830px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#galeria h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 3em;
+	font-family: 'Cookie', cursive;
+	color: #5E2505;
+}
+
+#galeria figure{
+	margin-top: 25px;
+}
+
+#galeria figure .foto{
+	width: 300px;
+	margin: 20px;
+}
+
+
+/* ----- PÁGINA DE CONTATO ----- */
+/* --- CONTATO ---*/
+#contato{
+	margin: 0 auto;
+	width: 1050px;
+	height: 600px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#contato h3{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 3em;
+	font-family: 'Cookie', cursive;
+	color: #5E2505;
+}
+
+#contato form fieldset{
+	border: none;
+	width: 550px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#contato form fieldset label{
+	font-family: 'Shippori Mincho B1', serif;
+}
+
+#contato form fieldset input, textarea{
+	width: 100%;
+	height: 35px;
+	border: 1px solid #5E2505;
+	border-radius: 3px;
+}
+
+#contato form fieldset textarea{
+	height: 150px;
+}
+
+#contato form fieldset .btn-enviar{
+	width: 100%;
+	border: 2px solid #FF6041;
+	border-radius: 3px;
+	padding: 10px;
+	background-color: #fff;
+	color: #FF6041;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#contato form fieldset .btn-enviar:hover{
+	background-color: #FF6041;
+	color: #fff;
+}
+
+/* --- RODAPÉ ---*/
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #5E2505;
+	line-height: 60px;
+	clear: both;
+	color: #fff;
+	text-align: center;
+}
